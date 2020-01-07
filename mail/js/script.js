@@ -14,17 +14,11 @@ for (var i = 0; i < emailUtenti.length; i++) {
   mailPresente = true;
  }
 }
-
+// una volta fatto il controllo, se è nella lista appare un messaggio positivo
 if (mailPresente == true) {
-  alert('benvenuto');
+  alert('Benvenuto');
 }
 else {
-  alert('accesso negato');
+  alert('Accesso negato');
 }
-
-
-// una volta fatto il controllo, se è nella lista appare un messaggio positivo
-
-
-
 // se non è nella lista appare un messaggio negativo
